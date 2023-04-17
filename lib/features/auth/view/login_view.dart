@@ -16,14 +16,13 @@ class LoginView extends ConsumerWidget {
     return Scaffold(
       body: Center(
         child: Container(
-          width: 220,
-          // width: MediaQuery.of(context).size.width / 2,
+          width: 250,
           decoration: BoxDecoration(
             boxShadow: const [
               BoxShadow(
                 color: Color.fromARGB(255, 206, 208, 211),
                 blurRadius: 20,
-                offset: Offset(2, 2), // Shadow position
+                offset: Offset(2, 2),
               ),
             ],
             color: Pallete.whiteColor,
